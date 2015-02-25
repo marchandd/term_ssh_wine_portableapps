@@ -1,0 +1,5 @@
+http://abstractspoon.pbworks.com/f/todolist_exe.zip
+http://www.freecommander.com/FreeCommanderPortable_2009.02b.paf.exe
+http://optimate.dl.sourceforge.net/project/portableapps/Notepad%2B%2B%20Portable/NotepadPlusPlusPortable_6.7.3.paf.exe
+http://kent.dl.sourceforge.net/project/portableapps/WinMerge%20Portable/WinMergePortable_2.14.0.paf.exe
+http://sourceforge.net/projects/portableapps/files/Ant%20Renamer%20Portable/AntRenamerPortable_2.10.0.paf.exe
