@@ -66,37 +66,27 @@ Where YYYYY is your Private port, if you doesn't know free port, try from 49200.
 
 ### Command line explanation
 
-- Run in detached mode.
-- Export port 22.
+All details on [docs](https://github.com/marchandd/term_ssh_wine_portableapps/docs/summary.md "Summary").
 
 ## Container usage
 
-### SSH access
-
-Open terminal with root/administrator account.
-
-:computer: `ssh -X root@XXX.XXX.XXX.XXX -p YYYYY`
-
 ### Alias
 
-When you are into SSH access.
-
-:computer: `firefox`
-
-Wine is installed but need to be initialized before using it with:  
-:computer: `/usr/local/sbin/_installFirst_winetricksOptions.sh`
+All details on [docs](https://github.com/marchandd/term_ssh_wine_portableapps/docs/summary.md "Summary").
 
 ## Explanations
 
 ### Dockerfile
 
-- Copy files from local to VE.
-- Automatic download from links in file and log into a trace file.
-- Give permissions on EXE files and scripts.
+All details on [docs](https://github.com/marchandd/term_ssh_wine_portableapps/docs/summary.md "Summary").
 
 ### Display
 
 Make sure to have installed OpenSSH client or GUI SSH client (Putty).
+Wine is installed but need to be initialized before using it.  
+All Windows Portable-apps samples must been installed with deployed scripts.
+
+All details on [docs](https://github.com/marchandd/term_ssh_wine_portableapps/docs/summary.md "Summary").
 
 ### Risks
 
