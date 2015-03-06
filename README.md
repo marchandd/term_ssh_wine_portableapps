@@ -33,20 +33,7 @@ Around 1400 Mb.
 
 ### Command line
 
-:computer: `docker pull marchandd/term_ssh_wine_portableapps > build.log`
-
-### Command line explanation
-
-All details on [docs](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/summary.md "Summary").
-
-3 methods to find password:
-
-- Search password value into build.log file from marchandd/term_ssh_wine_portableapps image to access later to container.
-
-- If you don't have build image with log file redirection, use this comand:  
-:computer: `docker inspect IMAGEID`
-
-- If you don't have password value, enter directly into container to find log inside with [Nsenter](http://itsagooddaytobegeek.com/docker-ep-02-installation-de-nsenter/ "Nsenter")
+:computer: `docker pull marchandd/term_ssh_wine_portableapps`
 
 ### Firewall
 
@@ -61,14 +48,18 @@ you will have to disable 22 port filtering:
 
 :computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:22 marchandd/term_ssh_wine_portableapps`
 
-Where XXX.XXX.XXX.XXX is your IP v4 address.  
-Where YYYYY is your Private port, if you doesn't know free port, try from 49200...
-
 ### Command line explanation
 
 All details on [docs](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/summary.md "Summary").
 
 ## Container usage
+
+### SSH access
+
+Open terminal with root/administrator account.  
+Basic fixed password for Docker public repository from marchandd/term_ssh_root_wine image = 'term_ssh_root_wine'
+
+:computer: `ssh -X root@XXX.XXX.XXX.XXX -p YYYYY`
 
 ### Alias
 
