@@ -17,7 +17,7 @@ Run scripts for Windows Portable-apps samples to install and use like explain in
 
 ### Image size
 
-Around 1400 Mb.
+Around 1300 Mb.
 
 ### References
 
