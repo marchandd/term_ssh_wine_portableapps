@@ -1,6 +1,6 @@
 FROM marchandd/term_ssh_root_wine:latest
 MAINTAINER Marchand D. https://github.com/marchandd/term_ssh_wine_portableapps
-ENV VE_version="MarchandD_20150315_v01.02"
+ENV VE_version="MarchandD_20151117_v02.01" 
 # Downloads softwares deliveries from file (-i) to target directories (-P) with log (-o)
 COPY scripts/*.txt /root/Downloads/
 RUN wget -i /root/Downloads/downloadsLinks.txt -P /root/Downloads -o /root/Downloads/downloadsLinks.log

@@ -6,7 +6,7 @@ Return to [details](https://github.com/marchandd/term_ssh_wine_portableapps/blob
 Description
 -----------
 
-AntRenamer(2.10.0) English/French by Antp.be is a batch re-namer for files 
+AntRenamer(2.12.0) English/French by Antp.be is a batch re-namer for files 
 and directories.
 
 ### Assigned alias ###

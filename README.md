@@ -46,7 +46,7 @@ you will have to disable 22 port filtering:
 
 ### Command line
 
-:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:22 -v LOCALPATH:/data marchandd/term_ssh_wine_portableapps`
+:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:22 --name latest_term_ssh_wine_portableapps -v LOCALPATH:/data marchandd/term_ssh_wine_portableapps`
 
 ### Command line explanation
 

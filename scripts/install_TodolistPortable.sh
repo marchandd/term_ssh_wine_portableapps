@@ -1,7 +1,7 @@
 #!/bin/bash
-#DM*20141222 ToDoList(6.9.1) English/French version succesfully based
-#On Host: KUbuntu(14.10), Docker(1.4.1)
-#On Client with Root account: Ubuntu(14.10), Wine(1.17.33)
+#DM*20151117 ToDoList(7.0.8) English/French version succesfully based
+#On Host: KUbuntu(15.10), Docker(1.9.0)
+#On Client with Root account: Ubuntu(14.10), Wine(1.17.50)
 
 #Specific Windows Zip registry
 programName="todolist"

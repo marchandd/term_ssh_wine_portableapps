@@ -6,7 +6,7 @@ Return to [details](https://github.com/marchandd/term_ssh_wine_portableapps/blob
 Description
 -----------
 
-ToDoList(6.9.1) English/French by AbstractSpoon is a task manager tool to 
+ToDoList(7.0.8) English/French by AbstractSpoon is a task manager tool to 
 manage To-do lists and also import mind mapping files as Freeplane or 
 GanntProject files.
 
@@ -28,8 +28,8 @@ with a lot of integrated tools.
 - Import/Export.
 - Source control link.
 
-Silver state Features
----------------------
+Gold state Features
+-------------------
 
 Seem to be really functional useful to manipulate tasks. This represents 
 main activity for this software.
@@ -43,14 +43,11 @@ main activity for this software.
 - Set icon and Reminder display (without sound in the Docker container),
 - Apply categories, tags, status (but impossible to use filter),
 - Use Spell check:
-  Click to download through Firefox.
+  Click to download through Firefox on [this](https://github.com/abstractspoon/ToDoList_Downloads/wiki/Dictionaries "Dictionaries")
   Unzip by command line. 
   Import DIC file and use it.
 
 ### Troubles detect ###
-- :new_moon_with_face: Filter action occurs crash of Wine with internal errors. 
-  Restart container necessary !
-- :sun_with_face: Sometimes abnormal terminal crash when exiting...
 - :full_moon_with_face: Some icons not available in columns header due to 
 Windows font missing.
 - :full_moon_with_face: Comments font colour change do nothing in rich edit.
