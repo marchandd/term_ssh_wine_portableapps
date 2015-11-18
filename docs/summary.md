@@ -31,11 +31,11 @@ Softwares tested
 
 | State | Portable-app  
 | --- | ---  
-| Gold | [ToDoList](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/todolist.md "ToDoList_Details") ZIP-app  
+| Gold | [AntRenamer](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/antrenamer.md "AntRenamer_Details") Portable-app  
 | Silver | [FreeCommander](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/freecommander.md "FreeCommander_Details") Portable-app  
 | Gold | [Notepad++](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/notepad.md "Notepad++_Details") Portable-app  
+| Gold | [ToDoList](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/todolist.md "ToDoList_Details") ZIP-app  
 | Gold | [WinMerge](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/winmerge.md "WinMerge_Details") Portable-app  
-| Gold | [AntRenamer](https://github.com/marchandd/term_ssh_wine_portableapps/blob/master/docs/antrenamer.md "AntRenamer_Details") Portable-app  
 
 Dockerfile explanation
 ----------------------
@@ -43,14 +43,14 @@ Dockerfile explanation
 ### Softwares ready to install after download
 
 Graphical user interface portable software presents are:
-- ToDoList by AbstractSpoon to manage Todo lists with tree-view and 
-calendar display.
+- AntRenamer by Antp.be to rename files and directories.
 - FreeCommander (old version) by Marek Jasinski to manage files and directories 
 with multi-tools.
 - Notepad++ by Notepad++Team to edit source code supporting several languages.
+- ToDoList by AbstractSpoon to manage Todo lists with tree-view and 
+calendar display.
 - WinMerge by Dean P. Grimm / Thingamahoochie software to differencing and 
 merge files and directories.
-- AntRenamer by Antp.be to rename files and directories.
 
 ### Work-flow: 10 minutes to have 5 Portable-Apps ready to run !
 
@@ -179,8 +179,8 @@ If you have run container with "V option" you can share data with host.
 
 When you are connected to container and when you have run all scripts described above.
 
-:computer: `todolist`  
+:computer: `antrenamer`  
 :computer: `freecommander`  
 :computer: `notepad`  
+:computer: `todolist`  
 :computer: `winmerge`  
-:computer: `antrenamer`
